@@ -39,7 +39,7 @@ interface StreamCard {
 }
 
 const StreamPage: React.FC = () => {
-  const [selectedStream, setSelectedStream] = useState<string>('featured');
+  const [, setSelectedStream] = useState<string>('featured');
   
   const featuredStream = {
     url: 'https://www.facebook.com/reel/4627735474180440',
