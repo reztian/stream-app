@@ -1,10 +1,10 @@
 import React from 'react'
-import StreamPage from './pages/StreamPage'
+import MainPage from './pages/MainPage'
 
-const App:React.FC = () => {
+import './App.scss'
+export const App: React.FC = () => {
   return (
-    <StreamPage />
+    <MainPage />
+
   )
 }
-
-export default App

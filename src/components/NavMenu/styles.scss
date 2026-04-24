@@ -1,0 +1,29 @@
+
+
+.nav-bar {
+    width: 100%;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+    padding: 0 20px;
+    
+}
+
+.nav-bar .nav-link {
+    color: #ffffff;
+}
+
+.nav-bar .nav-link.active {
+    color: #ffb01f;
+}
+
+.btn {
+    background-color: #ffb01f;
+    border-radius: 15px;
+    color: #111111;
+}
