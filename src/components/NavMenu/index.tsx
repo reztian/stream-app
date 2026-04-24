@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button, Container, Nav, Navbar } from 'react-bootstrap'
+import { Button, Nav, Navbar } from 'react-bootstrap'
 import logo from '../../assets/RR-logo-label.jpg'
 import SocialMediaIcons from '../SocialMediaIcons'
 

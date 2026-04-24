@@ -1,8 +1,8 @@
 import React from 'react'
 
 //https://script.google.com/macros/s/AKfycbzO6YQL2aiDNNtFtRaA-qWfHddTQx41Gw4orIdOxT64939L2HeTRrbVQ3hScKWqOonKuQ/exec
-const FormPage = () => {
-    const handleOnSubmit = async (e) => {
+const FormPage:React.FC = () => {
+    const handleOnSubmit = async (e:any) => {
         e.preventDefault();
         const values = e.target;
         console.log(values.name.value, values.email.value, values.role.value, values.date.value);
