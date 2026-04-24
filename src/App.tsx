@@ -1,10 +1,12 @@
 import React from 'react'
-import MainPage from './pages/MainPage'
+import { HashRouter } from 'react-router-dom'
+import AppRouter from './components/AppRouter'
 
 import './App.scss'
 export const App: React.FC = () => {
   return (
-    <MainPage />
-
+    <HashRouter>
+      <AppRouter />
+    </HashRouter>
   )
 }

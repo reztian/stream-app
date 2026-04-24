@@ -12,9 +12,9 @@ const NavMenu: React.FC = () => {
                 <Navbar.Brand href="#home">
                     <img src={logo} alt="RR Logo" height="40" />
                 </Navbar.Brand>
-                <Nav>
+                <Nav className='nav-items'>
                     <Nav.Link href="#about">ABOUT</Nav.Link>
-                    <Nav.Link href="#event">EVENT</Nav.Link>
+                    <Nav.Link href="#events">EVENTS</Nav.Link>
                     <Nav.Link href="#store">STORE</Nav.Link>
                     <Nav.Link href="#support">SUPPORT</Nav.Link>
                 </Nav>

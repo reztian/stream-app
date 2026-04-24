@@ -1,0 +1,6 @@
+export const SCREENS_BREAKPOINTS = {
+    MOBILE: 360,
+    TABLET: 600,
+    LAPTOP: 1024,
+    DESKTOP: 1240,
+}
